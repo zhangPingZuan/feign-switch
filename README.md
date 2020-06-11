@@ -16,6 +16,6 @@
 
 ## 使用效果
 在feign client中点击深红色小图标，就可以跳转到具体controller中的mapping方法。
-![alt feign-go](./image/feign-go.png)
+![alt feign-go](https://s1.ax1x.com/2020/06/11/tb02GD.png)
 在controller中点击深红色小图标，就可以跳转到具体feign client中的mapping方法（如果有多个client，可以进行选择）。
-![alt feign-back](./image/feign-back.png)
+![alt feign-back](https://s1.ax1x.com/2020/06/11/tb06IK.png)
