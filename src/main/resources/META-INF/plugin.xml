@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>io.github.spring-cloud-feign-switch</id>
+    <name>spring-cloud-feign-switch</name>
+    <vendor email="840264140@qq.com" url="https://github.com/">zhangpingzuan</vendor>
+
+    <description><![CDATA[
+    this is openfeign switch!!!!<br>
+    <em>happily use</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider language="JAVA"
+                                        implementationClass="io.github.feign.FeignLineMarkerProvider"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
